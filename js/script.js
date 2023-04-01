@@ -52,7 +52,7 @@ function printQuote() {
   <p class="source">${quotes.source}</p>`;
 
   if (quotes.citation !== 'null') {
-     realQuote = 
+     realQuote = `<span class = citation>${quotes.citation}</span>`
   }
 
 
