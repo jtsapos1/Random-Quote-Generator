@@ -48,11 +48,16 @@ function getRandomQuote() {
 ***/
 function printQuote() {
   let newQuote = getRandomQuote();
-  let realQuote = <p class="quote">'quotes.quote'</p>,
-  <p class="source">'quotes.source'</p>
+  let realQuote = `<p class="quote">${quotes.quote}</p>,
+  <p class="source">${quotes.source}</p>`;
+
+  if () {
+    
+  }
+
 
   }
-}
+
 
 
 /***
