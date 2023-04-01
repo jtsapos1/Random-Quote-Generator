@@ -51,8 +51,8 @@ function printQuote() {
   let realQuote = `<p class="quote">${quotes.quote}</p>,
   <p class="source">${quotes.source}</p>`;
 
-  if () {
-    
+  if (quotes.citation !== 'null') {
+     realQuote = 
   }
 
 
