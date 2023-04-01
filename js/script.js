@@ -43,11 +43,14 @@ function getRandomQuote() {
   return quotes[randomQuote];
 }
 
-
 /***
  * `printQuote` function
 ***/
-
+function printQuote() {
+  let newQuote = getRandomQuote();
+  let realQuote = `<p class="quote"> ${quotes.quote} </p>,
+  <p class="source"> ${quotes.source} `;   
+}
 
 
 /***
