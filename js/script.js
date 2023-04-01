@@ -38,8 +38,9 @@ const quotes = [
  * `getRandomQuote` function
 ***/
 // Function that generates a random quote
-function randomQuote() {
-  return Math.floor(Math.random() * 100) + 1;
+function getRandomQuote() {
+  let randomQuote = Math.floor(Math.random() * quotes.length);
+  return quotes[randomQuote];
 }
 
 
