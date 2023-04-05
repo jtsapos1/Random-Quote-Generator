@@ -52,10 +52,10 @@ function printQuote() {
   <p class="source">${newQuote.source}`;
 
   if (quotes.citation !== null) {
-     realQuote += `<span class = citation>${quotes.citation}</span>`
+     realQuote += `<span class = citation>${newQuote.citation}</span>`
   }
   if (quotes.year !== null) {
-    realQuote += `<span class = year>${quotes.year}</span>`
+    realQuote += `<span class = year>${newQuote.year}</span>`
   }
   </p>
 
