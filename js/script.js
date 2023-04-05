@@ -47,7 +47,8 @@ const quotes = [
 /***
  * `getRandomQuote` function
 ***/
-// Function that generates a random quote
+// Function that generates a random number, and use that random number 
+//to return a random quote object from the quotes array.
 function getRandomQuote() {
   let randomQuote = Math.floor(Math.random() * quotes.length);
   return quotes[randomQuote];
