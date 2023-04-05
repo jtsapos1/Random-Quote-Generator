@@ -57,7 +57,7 @@ function printQuote() {
   if (quotes.year !== null) {
     realQuote += `<span class = year>${newQuote.year}</span>`
   }
-  realQuote = </p>
+  realQuote += </p>
 
  }
 
