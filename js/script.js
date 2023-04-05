@@ -57,7 +57,7 @@ function printQuote() {
   if (quotes.year !== null) {
     realQuote += `<span class = year>${newQuote.year}</span>`
   }
-  </p>
+  realQuote = </p>
 
  }
 
@@ -65,6 +65,6 @@ function printQuote() {
  * click event listener for the print quote button
  * DO NOT CHANGE THE CODE BELOW!!
 ***/
-document.getElementById('quote-box').innerHTML = yourStringHere; 
+document.getElementById('quote-box').innerHTML = realQuote; 
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
