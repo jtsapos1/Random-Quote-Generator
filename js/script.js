@@ -61,11 +61,10 @@ function printQuote() {
 
  }
 
-
-
 /***
  * click event listener for the print quote button
  * DO NOT CHANGE THE CODE BELOW!!
 ***/
+document.getElementById('quote-box').innerHTML = yourStringHere; 
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
