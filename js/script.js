@@ -66,10 +66,10 @@ function printQuote() {
   <p class="source">${newQuote.source}`; //realQuote is the variable to hold the HTML string.
 
   //using conditionals to test if object or elements exist
-  if (newQuote.citation !== undefined) {
+  if (newQuote.citation) {
      realQuote += `<span class = citation>${newQuote.citation}</span>`
   }
-  if (newQuote.year !== undefined) {
+  if (newQuote.year) {
     realQuote += `<span class = year>${newQuote.year}</span>`
   }
   realQuote += '</p>'
